@@ -8,7 +8,6 @@ body {
   text-align: center;
 }
 
-
 .dNav {
   transition: 300ms ease-in-out;
   width: 90%;
@@ -26,9 +25,19 @@ body {
   display: none;
 }
 
+.Campaign{
+  display: none;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.join:hover {background-color: rgb(240, 113, 113);
+}
+
 ul {
-  
-  margin-top: 25px;
+  argin-top: 25px;
   list-style: none;
   padding: 0px;
   display: flex;
@@ -94,6 +103,18 @@ color: white;
   background-repeat: no-repeat;
   font-family: 'cocogoose', sans-serif;
 }
+
+.description {
+  background-color: rgba(255, 255, 255, 0.616);;
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
+.see-more {
+  display: none;
+}
+
 .intro .hello,
 .intro h1,
 .card span {
@@ -116,7 +137,21 @@ h1 {
   background-color: #272a31;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
   gap: 8px;
+}
+
+.mainProgram h2 {
+  margin-bottom: 0;
+}
+
+.line {
+  height: 2px;
+  width: 30px;
+  background-color: #ec5242;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -132,7 +167,6 @@ h1 {
 .mainProgram p,
 .mainProgram h2,
 .mainProgram button {color: white;
-
 }
 
 .card{
@@ -160,5 +194,135 @@ h1 {
   margin: 27px;
 }
 
+@media screen and (min-width:768px) {
+.hamburger{
+  display: none;
+}
 
+.dNav {
+  width: 72.7%;
+  padding: 0 14%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(0);
+}
+
+.intro{
+  margin: 0;
+ padding-top: 17%;
+ padding-left: 15%;
+ padding-right: 15%;
+ padding-bottom: 11%;
+}
+
+.intro h1 {
+  width: 86%;
+  font-size: 2.7em;
+}
+
+.description {
+  width: 60%;
+}
+
+
+.Campaign{
+  display: block;
+  margin: 0;
+  padding: 4px;
+  border: 2px solid #ec5242;
+}
+
+.brand {
+  text-align: left;
+  position: relative;
+  margin: 0;
+  display: block;
+  width: 170px;
+}
+
+.brand img {
+  width: 60px;
+}
+
+.mainProgram {
+  padding: 3% 13%;
+}
+
+ul {
+  margin-right: -95Px;
+  width: 37% ;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.join {
+  display: none;
+}
+
+.see-more {
+  font-size: smaller;
+  word-spacing:.3em ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'lato', sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+div .card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.s-card {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  background-color: white;
+  text-align: left;
+}
+
+.sc-img { 
+  background-image: url(./assest/backimage.png);
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.sc-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sc-content h4,
+.sc-content p {
+  margin: 0;
+}
+
+.speakrs {
+  padding: 3% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+}
 
