@@ -1,0 +1,215 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  margin: 0;
+  background-color: white;
+  padding: 0;
+  text-align: center;
+}
+
+
+.dNav {
+  transition: 300ms ease-in-out;
+  width: 90%;
+  position: absolute;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: translateY(-91.5%);
+  background-color: #272a31;
+  color: white;
+}
+
+.brand {
+  display: none;
+}
+
+ul {
+  
+  margin-top: 25px;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 22px;
+}
+
+.dNav a {
+text-decoration: none ;
+color: white;
+}
+
+.hamburger {
+  background-color: #272a31;
+  border: none;
+  position: relative;
+  top:10px;
+  right: 42%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.hamburger span {
+  transition: 300ms ease-in-out;
+  background-color: white;
+  display: block;
+  width: 1.6rem;
+  height: 3px;
+  margin: 3.5px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.active.hamburger :nth-child(2) {
+  opacity: 0;
+}
+
+.active.hamburger :nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+
+}
+.active.hamburger :nth-child(3) {
+  transform: translateY(-4.5px) rotate(-45deg);
+}
+  
+.dNav.active {
+  transform: translateY(-15%);
+  
+}
+
+.dNav li:hover {
+  background-color: grey;
+}
+
+.intro {
+  margin-top: 17px;
+  padding: 15px;
+  background: url(./assest/event.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'cocogoose', sans-serif;
+}
+.intro .hello,
+.intro h1,
+.card span {
+  color: #ec5242;;
+}
+.hello {
+  margin-bottom: 0;
+  font-size:1.7em ;
+}
+h1 {
+  margin-top: 0;
+  font-size: 1.7em;
+}
+
+.description {
+  border: 1px solid grey;
+  background-color: rgba(255, 255, 255, 0.616);
+  z-index: 10;
+  word-spacing: 2px;
+  font-size: larger;
+  margin-bottom: 26px;
+  padding: 2%;
+}
+
+.intro a {
+  color: #272a31;
+}
+
+
+p {
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+}
+
+.logo{
+  background-color: #272a31;
+  width: 100%;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.about{
+  padding: 0 15%;
+}
+
+.about h4 {
+  font-family: 'lato',sans-serif;
+  font-size: x-large;
+  color: #272a31;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.footer h4 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: x-large;
+  color: #272a31;
+  font-weight: 400;
+  margin-top: 55px;
+}
+
+.footer img {
+  width: 350px;
+  height: 250px;
+  margin-top: 20px;
+  background-color: red;
+}
+
+.mainProgram {
+  padding: 3%;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container div {
+  padding: 5%;
+}
+
+.mainProgram p,
+.mainProgram h2,
+.mainProgram button {color: white;
+
+}
+
+.card{
+  display: flex;
+  background-color: #5f5f5f50;
+  flex-direction: row;
+  gap: 8.5px;
+  align-items: center;
+}
+
+.card p {
+  font-size: 11px;
+  text-align: left;
+}
+
+.card span {
+  display: flex;
+  align-items: center;
+}
+
+.join {
+  background-color:#ec5242 ;
+  padding: 5%;
+  font-weight: 700;
+  margin: 27px;
+}
+
