@@ -22,6 +22,10 @@ body {
   color: white;
 }
 
+.Campaign{
+  display: none;
+}
+
 .brand {
   display: none;
 }
@@ -218,4 +222,58 @@ p {
   height: auto;
 }
 
+@media screen and (min-width:768px) {
+
+  .hamburger{
+  display: none;
+}
+
+.dNav {
+  width: 72.7%;
+  padding: 0 14%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(0);
+}
+
+.intro{
+  margin: 0;
+ padding-top: 17%;
+ padding-left: 15%;
+ padding-right: 15%;
+ padding-bottom: 11%;
+}
+
+.intro h1 {
+  width: 86%;
+  font-size: 2.7em;
+}
+
+.description {
+  width: 60%;
+}
+
+.Campaign{
+  display: block;
+  margin: 0;
+  padding: 4px;
+  border: 2px solid #ec5242;
+}
+
+
+.dNav img {
+  width: 200px;
+  height: 100px;
+}
+
+ul {
+  margin-right: -95Px;
+  width: 37% ;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+}
 

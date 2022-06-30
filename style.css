@@ -16,9 +16,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  transform: translateY(-92.5%);
-  background-color: #272a31;
-  color: white;
+  transform: translateY(-94%);
+  background-color: white;
+  color: #272a31;
 }
 
 .brand {
@@ -26,6 +26,10 @@ body {
 }
 
 .Campaign{
+  display: none;
+}
+
+.partners {
   display: none;
 }
 
@@ -37,7 +41,7 @@ body {
 }
 
 ul {
-  argin-top: 25px;
+  margin-top: 37px;
   list-style: none;
   padding: 0px;
   display: flex;
@@ -49,11 +53,11 @@ ul {
 
 .dNav a {
 text-decoration: none ;
-color: white;
+color: #272a31;
 }
 
 .hamburger {
-  background-color: #272a31;
+  background-color:white;
   border: none;
   position: relative;
   top:10px;
@@ -64,7 +68,7 @@ color: white;
 
 .hamburger span {
   transition: 300ms ease-in-out;
-  background-color: white;
+  background-color:#272a31;
   display: block;
   width: 1.6rem;
   height: 3px;
@@ -95,7 +99,6 @@ color: white;
 }
 
 .intro {
-  margin-top: 17px;
   padding: 15px;
   background: url(./assest/event.png);
   background-size: cover;
@@ -148,6 +151,7 @@ h1 {
 }
 
 .line {
+  align-self: center;
   height: 2px;
   width: 30px;
   background-color: #ec5242;
@@ -194,101 +198,6 @@ h1 {
   margin: 27px;
 }
 
-@media screen and (min-width:768px) {
-.hamburger{
-  display: none;
-}
-
-.dNav {
-  width: 72.7%;
-  padding: 0 14%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  transform: translateY(0);
-}
-
-.intro{
-  margin: 0;
- padding-top: 17%;
- padding-left: 15%;
- padding-right: 15%;
- padding-bottom: 11%;
-}
-
-.intro h1 {
-  width: 86%;
-  font-size: 2.7em;
-}
-
-.description {
-  width: 60%;
-}
-
-
-.Campaign{
-  display: block;
-  margin: 0;
-  padding: 4px;
-  border: 2px solid #ec5242;
-}
-
-.brand {
-  text-align: left;
-  position: relative;
-  margin: 0;
-  display: block;
-  width: 170px;
-}
-
-.brand img {
-  width: 60px;
-}
-
-.mainProgram {
-  padding: 3% 13%;
-}
-
-ul {
-  margin-right: -95Px;
-  width: 37% ;
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-}
-
-.join {
-  display: none;
-}
-
-.see-more {
-  font-size: smaller;
-  word-spacing:.3em ;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-family: 'lato', sans-serif;
-  color: white;
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-div .card {
-  display: flex;
-  flex-direction: column;
-  padding: 10px 20px;
-}
-
-.grid-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 15px;
-}
-
 .s-card {
   display: flex;
   flex-direction: row;
@@ -323,6 +232,186 @@ div .card {
   align-items: center;
 }
 
+.grid-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  gap: 40px;
+}
+
+.speakrs span {
+  color:#ec5242;
+  font-family: 'cocogose',sans-serif;
+}
+
+.speakrs p {
+font-family: 'lato', sans-serif;
+font-size: 0.7em;
+}
+
+.speakrs h3 {
+  font-family: 'lato', sans-serif;
+}
+
+.speakrs h4 {
+  font-family: 'lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+@media screen and (min-width:768px) {
+
+  .hamburger{
+  display: none;
+}
+
+.brand{
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  align-items: center;
+  width: 190px;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.dNav {
+  width: 72.7%;
+  padding: 0 14%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(0);
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.intro{
+  margin: 0;
+ padding-top: 17%;
+ padding-left: 15%;
+ padding-right: 15%;
+ padding-bottom: 11%;
+}
+
+.intro h1 {
+  width: 86%;
+  font-size: 2.7em;
+}
+
+.description {
+  width: 60%;
+}
+
+.Campaign{
+  display: block;
+  margin: 0;
+  padding: 4px;
+  border: 2px solid #ec5242;
+}
+
+
+.dNav img {
+  width: 70px;
+  height: auto;
+}
+
+ul {
+  margin-right: -95Px;
+  width: 37% ;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.mainProgram {
+  padding: 3% 13%;
+}
+
+.join {
+  display: none;
+}
+
+.see-more {
+  display: block;
+  font-size: smaller;
+  word-spacing:.3em ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'lato', sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+div .card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.partners {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.partners h2 {
+  color: grey;
+  margin-bottom: ;
+}
+
+.partners .content {
+  margin: -10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 15%;
+}
+
+.fbrand{
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  align-items: center;
+  width: 25%;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.fbrand img {
+  width: 70px;
+  height: auto;
+}
+
+.lfooter{
+  padding: 3% 12%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.lfooter p {
+  font-family: 'lato', sans-serif;
+  text-align: left;
+  width: 75%;
+}
 
 }
 
