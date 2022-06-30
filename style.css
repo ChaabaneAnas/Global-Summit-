@@ -270,6 +270,59 @@ font-size: 0.7em;
   font-weight: 800;
 }
 
+..foot {
+  margin-top: 30px;
+  text-align: left;
+  gap: 40px;
+  align-items: center;
+  padding: 8% 15%;
+  background-color: #272a31;
+  display: flex;
+  color: white;
+}
+
+.foot img {
+  margin: 0;
+  width: 100px;
+  height: auto;
+}
+
+.fcontent :nth-child(1) {
+  display: none;
+}
+
+.fbrand{
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  align-items: center;
+  width: 35%;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.fbrand img {
+  width: 70px;
+  height: auto;
+}
+
+.lfooter{
+  background-color: rgba(228, 222, 222, 0.904);
+  margin-top: 60px;
+  padding: 3% 12%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.lfooter p {
+  font-family: 'lato', sans-serif;
+  text-align: left;
+  width: 75%;
+}
+
+
 @media screen and (min-width:768px) {
 
   .hamburger{
@@ -412,6 +465,7 @@ div .card {
 }
 
 .lfooter{
+  margin-top: 0;
   padding: 3% 12%;
   display: flex;
   gap: 50px;
@@ -422,6 +476,10 @@ div .card {
   font-family: 'lato', sans-serif;
   text-align: left;
   width: 75%;
+}
+
+.fcontent :nth-child(1) {
+  display: block;
 }
 
 }
