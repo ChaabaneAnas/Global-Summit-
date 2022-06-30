@@ -3,7 +3,6 @@
 
 body {
   margin: 0;
-  background-color: white;
   padding: 0;
   text-align: center;
 }
@@ -17,9 +16,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  transform: translateY(-92.5%);
-  background-color: #272a31;
-  color: white;
+  transform: translateY(-94%);
+  background-color:rgb(223, 215, 215);
+  color: #272a31;
+  box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
+ -webkit-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
+ -moz-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
 }
 
 .Campaign{
@@ -31,7 +33,6 @@ body {
 }
 
 ul {
-  
   margin-top: 25px;
   list-style: none;
   padding: 0px;
@@ -44,11 +45,11 @@ ul {
 
 .dNav a {
 text-decoration: none ;
-color: white;
+color:#272a31;
 }
 
 .hamburger {
-  background-color: #272a31;
+  background-color: rgb(223, 215, 215);
   border: none;
   position: relative;
   top:10px;
@@ -59,7 +60,7 @@ color: white;
 
 .hamburger span {
   transition: 300ms ease-in-out;
-  background-color: white;
+  background-color:#272a31;
   display: block;
   width: 1.6rem;
   height: 3px;
@@ -90,13 +91,17 @@ color: white;
 }
 
 .intro {
-  margin-top: 17px;
-  padding: 15px;
+  padding-top: 10%;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
   background: url(./assest/event.png);
   background-size: cover;
+  text-align: left;
   background-repeat: no-repeat;
   font-family: 'cocogoose', sans-serif;
 }
+
 .intro .hello,
 .intro h1,h2,h3,h4
 .card span {
@@ -132,25 +137,50 @@ p {
   font-weight: 500;
 }
 
-.logo{
-  background-color: #272a31;
-  width: 100%;
+.about{
+  padding: 3% 15%;
+  box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
+  -webkit-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
+  -moz-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
 }
 
-.logo img {
-  width: 100px;
+.Logo{
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  width: ;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+  margin: 50px;
+  border: 1px dotted #272a31 ;
+}
+
+.Logo img {
+  width: 150px;
   height: auto;
 }
 
-.about{
-  padding: 0 15%;
+.Logo h2 {
+  color: #272a31;
+  width: 182px;
+  margin-left: -20px;
+}
+
+.broughtBy {
+  margin-bottom: 0;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  gap:30px;
-  padding: 1% 10%
+  gap:30px; display: flex;
+  gap: 6px;
+
+  align-items: center;
+  text-decoration: none;
+  color: #272a31;
 }
 
 .about h4 {
@@ -169,6 +199,12 @@ p {
   margin-top: 55px;
 }
 
+.imgs {
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+
 .img {
   position: relative;
   height: 250px;
@@ -185,7 +221,7 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
+  opacity: 1;
   height: 100%;
   width: 100%;
   background-color: rgb(252, 86, 74, 0.6);
@@ -197,7 +233,7 @@ p {
 }
 
 .overlay:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .overlay h4 {
@@ -222,13 +258,53 @@ p {
   height: auto;
 }
 
+.fcontent :nth-child(1) {
+  display: none;
+}
+
+.fbrand{
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  align-items: center;
+  width: 35%;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.fbrand img {
+  width: 70px;
+  height: auto;
+}
+
+.lfooter{
+  background-color: rgba(228, 222, 222, 0.904);
+  margin-top: 60px;
+  padding: 3% 12%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.lfooter p {
+  font-family: 'lato', sans-serif;
+  text-align: left;
+  width: 75%;
+}
+
 @media screen and (min-width:768px) {
 
   .hamburger{
   display: none;
 }
 
+.about{
+  padding: 3% 20%;
+}
+
 .dNav {
+  background-color: white;
   width: 72.7%;
   padding: 0 14%;
   display: flex;
@@ -236,6 +312,9 @@ p {
   justify-content: space-between;
   align-items: center;
   transform: translateY(0);
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
 }
 
 .intro{
@@ -243,16 +322,17 @@ p {
  padding-top: 17%;
  padding-left: 15%;
  padding-right: 15%;
- padding-bottom: 11%;
+ padding-bottom: 6%;
 }
 
 .intro h1 {
-  width: 86%;
-  font-size: 2.7em;
+  width: 100%;
+  font-size: 3em;
 }
 
 .description {
-  width: 60%;
+  width: 100%;
+  margin-bottom: 60px;
 }
 
 .Campaign{
@@ -262,18 +342,41 @@ p {
   border: 2px solid #ec5242;
 }
 
+.fcontent :nth-child(1) {
+  display: block;
+}
+
 
 .dNav img {
-  width: 200px;
-  height: 100px;
+  width: 70px;
+  height: auto;
+}
+
+.brand{
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  align-items: center;
+  width: 190px;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 ul {
   margin-right: -95Px;
   width: 37% ;
   justify-content: space-around;
+  align-items: center;
   display: flex;
   flex-direction: row;
 }
+
 }
 

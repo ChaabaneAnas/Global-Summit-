@@ -3,7 +3,6 @@
 
 body {
   margin: 0;
-  background-color: white;
   padding: 0;
   text-align: center;
 }
@@ -17,8 +16,15 @@ body {
   flex-direction: column;
   align-items: flex-start;
   transform: translateY(-94%);
-  background-color: white;
+  background-color: rgb(223, 215, 215);
   color: #272a31;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.lfooter {
+  display: none;
 }
 
 .brand {
@@ -57,7 +63,7 @@ color: #272a31;
 }
 
 .hamburger {
-  background-color:white;
+  background-color:rgb(223, 215, 215);
   border: none;
   position: relative;
   top:10px;
@@ -99,7 +105,10 @@ color: #272a31;
 }
 
 .intro {
-  padding: 15px;
+  padding-top: 10%;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
   background: url(./assest/event.png);
   background-size: cover;
   text-align: left;
@@ -279,6 +288,7 @@ font-size: 0.7em;
 }
 
 .dNav {
+  background-color: white;
   width: 72.7%;
   padding: 0 14%;
   display: flex;
@@ -287,8 +297,8 @@ font-size: 0.7em;
   align-items: center;
   transform: translateY(0);
   box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
 }
 
 .intro{
@@ -322,6 +332,7 @@ font-size: 0.7em;
 }
 
 ul {
+  margin-top: 25px;
   margin-right: -95Px;
   width: 37% ;
   justify-content: space-around;
