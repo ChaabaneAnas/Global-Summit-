@@ -7,7 +7,6 @@ body {
   text-align: center;
 }
 
-
 .dNav {
   transition: 300ms ease-in-out;
   width: 90%;
@@ -17,14 +16,14 @@ body {
   flex-direction: column;
   align-items: flex-start;
   transform: translateY(-94%);
-  background-color:rgb(223, 215, 215);
+  background-color: rgb(223, 215, 215);
   color: #272a31;
-  box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
- -webkit-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
- -moz-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
+  box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -webkit-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -moz-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
 }
 
-.Campaign{
+.Campaign {
   display: none;
 }
 
@@ -35,7 +34,7 @@ body {
 ul {
   margin-top: 25px;
   list-style: none;
-  padding: 0px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -44,15 +43,15 @@ ul {
 }
 
 .dNav a {
-text-decoration: none ;
-color:#272a31;
+  text-decoration: none;
+  color: #272a31;
 }
 
 .hamburger {
   background-color: rgb(223, 215, 215);
   border: none;
   position: relative;
-  top:10px;
+  top: 10px;
   right: 42%;
   z-index: 10;
   cursor: pointer;
@@ -60,7 +59,7 @@ color:#272a31;
 
 .hamburger span {
   transition: 300ms ease-in-out;
-  background-color:#272a31;
+  background-color: #272a31;
   display: block;
   width: 1.6rem;
   height: 3px;
@@ -69,21 +68,24 @@ color:#272a31;
   border-radius: 10px;
 }
 
+.fcontent :nth-child(1) {
+  display: none;
+}
+
 .active.hamburger :nth-child(2) {
   opacity: 0;
 }
 
 .active.hamburger :nth-child(1) {
   transform: translateY(8px) rotate(45deg);
-
 }
+
 .active.hamburger :nth-child(3) {
   transform: translateY(-4.5px) rotate(-45deg);
 }
-  
+
 .dNav.active {
   transform: translateY(-15%);
-  
 }
 
 .dNav li:hover {
@@ -102,19 +104,24 @@ color:#272a31;
   font-family: 'cocogoose', sans-serif;
 }
 
-.intro .hello,
-.intro h1,h2,h3,h4
-.card span {
-  font-family: 'cocogosse', sans-serif;
-  color: #ec5242;;
-}
 .hello {
   margin-bottom: 0;
-  font-size:1.7em ;
+  font-size: 1.7em;
 }
+
 h1 {
   margin-top: 0;
   font-size: 1.7em;
+}
+
+.intro .hello,
+.intro h1,
+h2,
+h3,
+h4,
+.card span {
+  font-family: 'cocogosse', sans-serif;
+  color: #ec5242;
 }
 
 .description {
@@ -131,30 +138,28 @@ h1 {
   color: #272a31;
 }
 
-
 p {
   font-family: 'lato', sans-serif;
   font-weight: 500;
 }
 
-.about{
+.about {
   padding: 3% 15%;
-  box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
-  -webkit-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
-  -moz-box-shadow: 0px 3px 0px 0px rgba(204,181,181,0.76);
+  box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -webkit-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -moz-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
 }
 
-.Logo{
+.Logo {
   display: flex;
   gap: 6px;
   justify-content: center;
   align-items: center;
-  width: ;
   text-align: left;
   text-decoration: none;
   color: #272a31;
   margin: 50px;
-  border: 1px dotted #272a31 ;
+  border: 1px dotted #272a31;
 }
 
 .Logo img {
@@ -175,16 +180,15 @@ p {
 .footer {
   display: flex;
   flex-direction: column;
-  gap:30px; display: flex;
+  gap: 30px;
   gap: 6px;
-
   align-items: center;
   text-decoration: none;
   color: #272a31;
 }
 
 .about h4 {
-  font-family: 'lato',sans-serif;
+  font-family: 'lato', sans-serif;
   font-size: x-large;
   color: #272a31;
   font-weight: 700;
@@ -200,9 +204,9 @@ p {
 }
 
 .imgs {
- display: flex;
- flex-direction: column;
- gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .img {
@@ -258,11 +262,7 @@ p {
   height: auto;
 }
 
-.fcontent :nth-child(1) {
-  display: none;
-}
-
-.fbrand{
+.fbrand {
   display: flex;
   gap: 6px;
   justify-content: start;
@@ -278,7 +278,7 @@ p {
   height: auto;
 }
 
-.lfooter{
+.lfooter {
   background-color: rgba(228, 222, 222, 0.904);
   margin-top: 60px;
   padding: 3% 12%;
@@ -293,90 +293,86 @@ p {
   width: 75%;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
 
-  .hamburger{
-  display: none;
+  .about {
+    padding: 3% 20%;
+  }
+
+  .dNav {
+    background-color: white;
+    width: 72.7%;
+    padding: 0 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(0);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.75);
+  }
+
+  .intro {
+    margin: 0;
+    padding-top: 17%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 6%;
+  }
+
+  .intro h1 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .description {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .Campaign {
+    display: block;
+    margin: 0;
+    padding: 4px;
+    border: 2px solid #ec5242;
+  }
+
+  .fcontent :nth-child(1) {
+    display: block;
+  }
+
+  .dNav img {
+    width: 70px;
+    height: auto;
+  }
+
+  .brand {
+    display: flex;
+    gap: 6px;
+    justify-content: start;
+    align-items: center;
+    width: 190px;
+    text-align: left;
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  ul {
+    margin-right: -95px;
+    width: 37%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
 }
-
-.about{
-  padding: 3% 20%;
-}
-
-.dNav {
-  background-color: white;
-  width: 72.7%;
-  padding: 0 14%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  transform: translateY(0);
-  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
-}
-
-.intro{
-  margin: 0;
- padding-top: 17%;
- padding-left: 15%;
- padding-right: 15%;
- padding-bottom: 6%;
-}
-
-.intro h1 {
-  width: 100%;
-  font-size: 3em;
-}
-
-.description {
-  width: 100%;
-  margin-bottom: 60px;
-}
-
-.Campaign{
-  display: block;
-  margin: 0;
-  padding: 4px;
-  border: 2px solid #ec5242;
-}
-
-.fcontent :nth-child(1) {
-  display: block;
-}
-
-
-.dNav img {
-  width: 70px;
-  height: auto;
-}
-
-.brand{
-  display: flex;
-  gap: 6px;
-  justify-content: start;
-  align-items: center;
-  width: 190px;
-  text-align: left;
-  text-decoration: none;
-  color: #272a31;
-}
-
-.imgs {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-
-ul {
-  margin-right: -95Px;
-  width: 37% ;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-
-}
-
