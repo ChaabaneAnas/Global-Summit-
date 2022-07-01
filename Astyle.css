@@ -1,0 +1,416 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.uNav {
+  display: none;
+}
+
+.a-dr {
+  text-decoration: none;
+  color: white;
+}
+
+.dNav {
+  transition: 300ms ease-in-out;
+  width: 90%;
+  position: absolute;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: translateY(-94%);
+  background-color: rgb(223, 215, 215);
+  color: #272a31;
+  box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -webkit-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -moz-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+}
+
+.Campaign {
+  display: none;
+}
+
+.brand {
+  display: none;
+}
+
+ul {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 22px;
+}
+
+.dNav a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+.hamburger {
+  background-color: rgb(223, 215, 215);
+  border: none;
+  position: relative;
+  top: 10px;
+  right: 42%;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.hamburger span {
+  transition: 300ms ease-in-out;
+  background-color: #272a31;
+  display: block;
+  width: 1.6rem;
+  height: 3px;
+  margin: 3.5px;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.fcontent :nth-child(1) {
+  display: none;
+}
+
+.active.hamburger :nth-child(2) {
+  opacity: 0;
+}
+
+.active.hamburger :nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.active.hamburger :nth-child(3) {
+  transform: translateY(-4.5px) rotate(-45deg);
+}
+
+.dNav.active {
+  transform: translateY(-15%);
+}
+
+.dNav li:hover {
+  background-color: grey;
+}
+
+.intro {
+  padding-top: 10%;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+  background: url(./assest/event.png);
+  background-size: cover;
+  text-align: left;
+  background-repeat: no-repeat;
+  font-family: 'cocogoose', sans-serif;
+}
+
+.hello {
+  margin-bottom: 0;
+  font-size: 1.7em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.7em;
+}
+
+.intro .hello,
+.intro h1,
+h2,
+h3,
+h4,
+.card span {
+  font-family: 'cocogosse', sans-serif;
+  color: #ec5242;
+}
+
+.description {
+  border: 1px solid grey;
+  background-color: rgba(255, 255, 255, 0.616);
+  z-index: 10;
+  word-spacing: 2px;
+  font-size: larger;
+  margin-bottom: 26px;
+  padding: 2%;
+}
+
+.intro a {
+  color: #272a31;
+}
+
+.line {
+  align-self: center;
+  height: 2px;
+  width: 30px;
+  background-color: #ec5242;
+  margin-top: -30px;
+}
+
+p {
+  font-family: 'lato', sans-serif;
+  font-weight: 500;
+}
+
+.about {
+  padding: 3% 15%;
+  box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -webkit-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+  -moz-box-shadow: 0 3px 0 0 rgba(204, 181, 181, 0.76);
+}
+
+.Logo {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  text-decoration: none;
+  color: #272a31;
+  margin: 50px;
+  border: 1px dotted #272a31;
+}
+
+.Logo img {
+  width: 150px;
+  height: auto;
+}
+
+.Logo h2 {
+  color: #272a31;
+  width: 182px;
+  margin-left: -20px;
+}
+
+.broughtBy {
+  margin-bottom: 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  gap: 6px;
+  align-items: center;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.about h4 {
+  font-family: 'lato', sans-serif;
+  font-size: x-large;
+  color: #272a31;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.footer h4 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: x-large;
+  color: #272a31;
+  font-weight: 400;
+  margin-top: 55px;
+}
+
+.imgs {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.img {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(252, 86, 74, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.overlay:hover {
+  opacity: 0.5;
+}
+
+.overlay h4 {
+  color: white;
+  margin: 0;
+}
+
+.foot {
+  margin-top: 30px;
+  text-align: left;
+  gap: 40px;
+  align-items: center;
+  padding: 8% 15%;
+  background-color: #272a31;
+  display: flex;
+  color: white;
+}
+
+.foot img {
+  margin: 0;
+  width: 100px;
+  height: auto;
+}
+
+.fbrand {
+  display: flex;
+  gap: 6px;
+  justify-content: start;
+  align-items: center;
+  width: 35%;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+}
+
+.fbrand img {
+  width: 70px;
+  height: auto;
+}
+
+.lfooter {
+  background-color: #272a31;
+  margin-top: 60px;
+  padding: 3% 12%;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.lfooter p {
+  font-family: 'lato', sans-serif;
+  text-align: left;
+  width: 75%;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .about {
+    padding: 3% 20%;
+  }
+
+  .uNav {
+    padding: 2px 12.6%;
+    display: flex;
+    justify-content: end;
+    background-color: #272a31;
+  }
+
+  .luNav {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 30%;
+  }
+
+  .uNav img {
+    width: 26px;
+  }
+
+  .dNav {
+    background-color: white;
+    width: 72.7%;
+    padding: 0 14%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(0);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.75);
+  }
+
+  .intro {
+    margin: 0;
+    padding-top: 17%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 6%;
+  }
+
+  .intro h1 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .description {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .Campaign {
+    display: block;
+    margin: 0;
+    padding: 4px;
+    border: 2px solid #ec5242;
+  }
+
+  .fcontent :nth-child(1) {
+    display: block;
+  }
+
+  .dNav img {
+    width: 70px;
+    height: auto;
+  }
+
+  .brand {
+    display: flex;
+    gap: 6px;
+    justify-content: start;
+    align-items: center;
+    width: 190px;
+    text-align: left;
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  ul {
+    margin-right: -95px;
+    width: 37%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+}
