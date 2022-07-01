@@ -7,6 +7,15 @@ body {
   text-align: center;
 }
 
+.uNav {
+  display: none;
+}
+
+.a-dr {
+  text-decoration: none;
+  color: white;
+}
+
 .dNav {
   transition: 300ms ease-in-out;
   width: 90%;
@@ -138,6 +147,14 @@ h4,
   color: #272a31;
 }
 
+.line {
+  align-self: center;
+  height: 2px;
+  width: 30px;
+  background-color: #ec5242;
+  margin-top: -30px;
+}
+
 p {
   font-family: 'lato', sans-serif;
   font-weight: 500;
@@ -204,6 +221,7 @@ p {
 }
 
 .imgs {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -270,7 +288,7 @@ p {
   width: 35%;
   text-align: left;
   text-decoration: none;
-  color: #272a31;
+  color: white;
 }
 
 .fbrand img {
@@ -279,7 +297,7 @@ p {
 }
 
 .lfooter {
-  background-color: rgba(228, 222, 222, 0.904);
+  background-color: #272a31;
   margin-top: 60px;
   padding: 3% 12%;
   display: flex;
@@ -291,6 +309,7 @@ p {
   font-family: 'lato', sans-serif;
   text-align: left;
   width: 75%;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -300,6 +319,25 @@ p {
 
   .about {
     padding: 3% 20%;
+  }
+
+  .uNav {
+    padding: 2px 12.6%;
+    display: flex;
+    justify-content: end;
+    background-color: #272a31;
+  }
+
+  .luNav {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 30%;
+  }
+
+  .uNav img {
+    width: 26px;
   }
 
   .dNav {
