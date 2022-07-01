@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+article h2 {
+  display: none;
+}
+
 .dNav {
   transition: 300ms ease-in-out;
   width: 90%;
@@ -54,7 +58,7 @@ body {
 
 .card:hover {
   transform: scale(1.03);
-  border: 2px solid white ;
+  border: 2px solid white;
 }
 
 .join {
