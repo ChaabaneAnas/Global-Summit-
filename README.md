@@ -5,6 +5,10 @@
 Moduel 1 - Week 5: Html-Css-Javascript project 
 
 
+## LOOM VIDEO
+
+[See the loom Video, Here](https://www.loom.com/share/19280ca1f72045d4942063618325581f)
+
 ## Built With
 
 - Html Css Javascript
