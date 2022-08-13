@@ -2,8 +2,8 @@
 
 # CAPSTONE PROJECT
 
-Moduel 1 - Week 5: Html-Css-Javascript project 
-this project is responsive for both desktop and mobile screen sives
+Moduel 1 - Week 5: Html-Css-Javascript project
+this project is responsive for both desktop and mobile screen sizes
 it has cool animated toggle menu 
 and a dynamicaly genrated section.
 
