@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# CAPSTONE PROJECT
+# Global Summit
 
 A Global Summit Landing page, the design is based  on a given design from behance,
 Built for tech summits and conferences
