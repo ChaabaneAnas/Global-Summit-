@@ -2,10 +2,11 @@
 
 # CAPSTONE PROJECT
 
-Moduel 1 - Week 5: Html-Css-Javascript project
-this project is responsive for both desktop and mobile screen sizes
-it has cool animated toggle menu 
-and a dynamicaly genrated section.
+A Global Summit Landing page, the design is based  on a given design from behance,
+Built for tech summits and conferences
+
+## Overview
+![image](https://user-images.githubusercontent.com/99597333/192144914-6ca3ae67-b061-4090-bf69-311ea6c106c7.png)
 
 
 ## LOOM VIDEO
@@ -18,9 +19,9 @@ and a dynamicaly genrated section.
 - No Frameworks
 - No Technologies used
 
-## Live Demo (if available)
+## Live Demo 
 
-[See Live Demo](https://chaabaneanas.github.io/Capstone-Project/)
+[See Live Demo](https://chaabaneanas.github.io/Global-Summit-/)
 
 ## Getting Started
 
