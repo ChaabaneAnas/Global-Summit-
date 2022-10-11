@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 ```
 1. Run: git clone https://github.com/IamYunusAli/Maed-Summit.git
 2. navigate to the project folder
-4. Run code . 
+4. Run "code ." 
 3. Open it with live server
 4. there u go !
 ```
