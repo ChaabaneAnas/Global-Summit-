@@ -6,8 +6,7 @@ A Global Summit Landing page, the design is based  on a given design from behanc
 Built for tech summits and conferences
 
 ## Overview
-![image](https://user-images.githubusercontent.com/99597333/222113270-286c704e-c04d-4537-a560-58269c9251f6.png)
-
+![image](https://user-images.githubusercontent.com/99597333/222122898-98d4cffb-cfb4-419b-8eda-770f01321fc2.png)
 
 
 
