@@ -6,7 +6,9 @@ A Global Summit Landing page, the design is based  on a given design from behanc
 Built for tech summits and conferences
 
 ## Overview
-![image](https://user-images.githubusercontent.com/99597333/192144914-6ca3ae67-b061-4090-bf69-311ea6c106c7.png)
+![image](https://user-images.githubusercontent.com/99597333/222100333-23768b22-1c1f-443e-ae2e-a32a3330254c.png)
+
+
 
 
 ## LOOM VIDEO
@@ -15,9 +17,12 @@ Built for tech summits and conferences
 
 ## Built With
 
-- Html Css Javascript
-- No Frameworks
-- No Technologies used
+- HTML
+- CSS
+- Javascript
+- Visual Studio Code
+- Chrome Developer Tools
+- following github flows standards.
 
 ## Live Demo 
 
@@ -35,12 +40,14 @@ To get a local copy up and running follow these simple example steps.
 3. Open it with live server
 4. there u go !
 ```
+## Usage
+You're free to use this project however you like it for educational purposes. Just keep in mind the acknowledgment described below
 
 ## Authors
 
 👤 **chaabaneAnas**
 
-- GitHub: [@githubhandle](https://github.com/ChaabaneAnas/
+- GitHub: [@githubhandle](https://github.com/ChaabaneAnas/)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
@@ -48,7 +55,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ChaabaneAnas/Capstone-Project/issues).
+Feel free to check the [issues page](https://github.com/ChaabaneAnas/Global-Summit-/issues).
 
 ## Show your support
 
